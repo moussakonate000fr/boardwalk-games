@@ -66,6 +66,36 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Media queries */
+
+/* Tablet: make service cards the same height */
+@media screen and (min-width: 768px) {
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Large: all cards have the same lines of text */
+@media screen and (min-width: 992px) {
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Extra large */
+@media screen and (min-width: 1200px) {
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* Extra extra large */
+@media screen and (min-width: 1400px) {
+    #services .card-body {
+        min-height: 195px;
+    }
+}
 /* grid visualisation CSS for testing */
 /* .container,
 .row {
